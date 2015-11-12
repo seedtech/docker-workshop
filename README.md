@@ -1,4 +1,4 @@
-# [![harbur.io](https://en.gravatar.com/userimage/10968596/06879c44248462a1bac025dd999fe704.png?size=64)](http://harbur.io) Docker Workshop [![Gitter chat](https://badges.gitter.im/harbur/docker-workshop.png)](https://gitter.im/harbur/docker-workshop)
+# [![harbur.io](https://en.gravatar.com/userimage/10968596/06879c44248462a1bac025dd999fe704.png?size=64)](http://harbur.io) Docker Workshop [![Gitter chat](https://badges.gitter.im/harbur/docker-workshop.png)](https://gitter.im/seedtech/docker-workshop)
 
 The Workshop is separated in three sections
 
@@ -9,7 +9,7 @@ The Workshop is separated in three sections
 Preparations:
 
 * Install Docker
-* Clone this repo: `git clone https://github.com/harbur/docker-workshop` (Some code examples require files located here)
+* Clone this repo: `git clone https://github.com/seedtech/docker-workshop` (Some code examples require files located here)
 * Warm-up the images:
 
 ```
@@ -203,11 +203,11 @@ ADD site /usr/share/nginx/html
 * Share your (non-localhost) url on Chat room [![Gitter chat](https://badges.gitter.im/harbur/docker-workshop.png)](https://gitter.im/harbur/docker-workshop)
 
 ### PUSH Image to a Registry
+Create and account for yourself in [Docker hub](http://hub.docker.com)
 
 ```
-REGISTRY=localhost:5000
-docker tag hello-world $REGISTRY/spiddy/hello-world
-docker push $REGISTRY/spiddy/hello-world
+docker tag hello-world <yourusername>/hello-world
+docker push <yourusername>/hello-world
 ```
 
 * **tag**: Tag an image into a repository
@@ -215,15 +215,15 @@ docker push $REGISTRY/spiddy/hello-world
 
 ## Workshop 3 (10 mins)
 
-* Push your website to the local Registry (use your github username)
+* Push your website to the Docker hbu Registry (use your username)
 * Push your website image
-* Share your image name on Chat room [![Gitter chat](https://badges.gitter.im/harbur/docker-workshop.png)](https://gitter.im/harbur/docker-workshop)
+* Share your image name on Chat room [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/seedtech/docker-workshop?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
 ### PULL Image from a Repository
 
 ```
-docker pull $REGISTRY/spiddy/hello-world
-docker run -d -P --name=registry-hello $REGISTRY/spiddy/hello-world
+docker pull <yourusername>/hello-world
+docker run -d -P --name=registry-hello <yourusername>/hello-world
 google-chrome $(docker port registry-hello 80)
 ```
 
