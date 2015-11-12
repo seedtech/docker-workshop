@@ -1,4 +1,4 @@
-# [![seeddigital.co](https://pbs.twimg.com/profile_images/656255958138523648/737PwgDI.png?size=64)](http://seeddigital.co) Docker Workshop [![Gitter chat](https://badges.gitter.im/harbur/docker-workshop.png)](https://gitter.im/seedtech/docker-workshop)
+# [![seeddigital.co](https://pbs.twimg.com/profile_images/656255958138523648/737PwgDI.png)](http://seeddigital.co) Docker Workshop [![Gitter chat](https://badges.gitter.im/harbur/docker-workshop.png)](https://gitter.im/seedtech/docker-workshop)
 
 The Workshop is separated in three sections
 
