@@ -1,5 +1,7 @@
 # [![harbur.io](https://en.gravatar.com/userimage/10968596/06879c44248462a1bac025dd999fe704.png?size=64)](http://harbur.io) Docker Workshop [![Gitter chat](https://badges.gitter.im/harbur/docker-workshop.png)](https://gitter.im/harbur/docker-workshop)
 
+[![Join the chat at https://gitter.im/seedtech/docker-workshop](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/seedtech/docker-workshop?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 The Workshop is separated in three sections
 
 * [CLI Basics](#cli-basics)
