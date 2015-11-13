@@ -1,2 +1,2 @@
-FROM nginx:1.9.3
+FROM nginx:latest
 ADD site /usr/share/nginx/html
